@@ -51,6 +51,10 @@ def replace_windows_vars(path):
         path = path.replace(var, replacement)
     return path.lstrip('\\')
 
+def clean_path(path):
+    """Replace '**' with '*' in paths."""
+    return path.replace('**', '*')
+
 def convert_yaml_to_orc(yaml_file_path, output_dir):
     try:
         with open(yaml_file_path, 'r') as yaml_file:
@@ -100,8 +104,8 @@ def convert_yaml_to_orc(yaml_file_path, output_dir):
 
                     elif source_type == 'FILE':
                         for path in attributes.get('paths', []):
-                            windows_paths = [replace_windows_vars(path.replace('C:\\', '').replace('/', '\\'))]
-                            add_sample(doc['name'], windows_paths, root)
+                            cleaned_path = clean_path(replace_windows_vars(path.replace('C:\\', '').replace('/', '\\')))
+                            add_sample(doc['name'], [cleaned_path], root)
                     else:
                         logging.warning(f"Unknown source type {source_type} in {yaml_file_path}")
 
