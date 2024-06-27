@@ -112,6 +112,9 @@ def convert_yaml_to_orc(yaml_file_path, output_dir):
         logging.error(f"Failed to convert {yaml_file_path}: {e}")
 
 def process_directory(input_dir, output_dir):
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+        
     for root, _, files in os.walk(input_dir):
         for file in files:
             if file.endswith('.yml') or file.endswith('.yaml'):
