@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="MicrosoftAVLogs">
+        <ntfs_find path_match="ProgramData\Microsoft\Windows AntiMalware\Support\MPDetection-*.log"/>
+    </sample>
+    <sample name="MicrosoftAVLogs">
+        <ntfs_find path_match="ProgramData\Microsoft\Windows AntiMalware\Support\MPLog-*.log"/>
+    </sample>
+    <sample name="MicrosoftAVLogs">
+        <ntfs_find path_match="ProgramData\Microsoft\Windows Defender\Scans\History\Service\DetectionHistory\*"/>
+    </sample>
+    <sample name="MicrosoftAVLogs">
+        <ntfs_find path_match="ProgramData\Microsoft\Windows Defender\Support\MPDetection-*.log"/>
+    </sample>
+    <sample name="MicrosoftAVLogs">
+        <ntfs_find path_match="ProgramData\Microsoft\Windows Defender\Support\MPLog-*.log"/>
+    </sample>
+    <sample name="MicrosoftAVLogs">
+        <ntfs_find path_match="Windows\ServiceProfiles\LocalService\AppData\Local\Temp\MpCmdRun.log"/>
+    </sample>
+    <sample name="MicrosoftAVLogs">
+        <ntfs_find path_match="Windows\Temp\MpCmdRun.log"/>
+    </sample>
+    <sample name="MicrosoftAVLogs">
+        <ntfs_find path_match="Users\*\AppData\Local\Temp\MpCmdRun.log"/>
+    </sample>
+</getthis>

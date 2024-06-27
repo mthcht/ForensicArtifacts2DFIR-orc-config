@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="WindowsActiveDirectoryDatabaseFile">
+        <ntfs_find path_match="Windows\ntds\ntds.dit"/>
+    </sample>
+    <sample name="WindowsActiveDirectoryDatabaseFile">
+        <ntfs_find path_match="Windows\ServicePackFiles\*\ntds.dit*"/>
+    </sample>
+    <sample name="WindowsActiveDirectoryDatabaseFile">
+        <ntfs_find path_match="Windows\SoftwareDistribution\Download\*\*\ntds.dit*"/>
+    </sample>
+    <sample name="WindowsActiveDirectoryDatabaseFile">
+        <ntfs_find path_match="Windows\System32\ntds.dit"/>
+    </sample>
+</getthis>

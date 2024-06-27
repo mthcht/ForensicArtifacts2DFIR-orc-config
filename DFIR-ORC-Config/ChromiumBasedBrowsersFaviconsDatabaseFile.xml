@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="ChromiumBasedBrowsersFaviconsDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\Network\Favicons"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersFaviconsDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\Network\Favicons-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersFaviconsDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Favicons"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersFaviconsDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Favicons-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersFaviconsDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Network\Favicons"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersFaviconsDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Network\Favicons-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersFaviconsDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Favicons"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersFaviconsDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Favicons-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersFaviconsDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Network\Favicons"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersFaviconsDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Network\Favicons-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersFaviconsDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Favicons"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersFaviconsDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Favicons-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersFaviconsDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Network\Favicons"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersFaviconsDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Network\Favicons-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersFaviconsDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Favicons"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersFaviconsDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Favicons-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersFaviconsDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Network\Favicons"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersFaviconsDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Network\Favicons-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersFaviconsDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Opera Software\Opera Stable\Network\Favicons"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersFaviconsDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Opera Software\Opera Stable\Network\Favicons-journal"/>
+    </sample>
+</getthis>

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="WindowsPowerShellEnableScripts">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Policies\Microsoft\Windows\PowerShell" value="EnableScripts"/>
+    </sample>
+    <sample name="WindowsPowerShellEnableScripts">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Policies\Microsoft\Windows\PowerShell" value="EnableScripts"/>
+    </sample>
+</getthis>

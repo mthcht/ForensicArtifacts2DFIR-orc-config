@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="WindowsUserRegistryFiles">
+        <ntfs_find path_match="Users\*\NTUSER.DAT"/>
+    </sample>
+    <sample name="WindowsUserRegistryFiles">
+        <ntfs_find path_match="Users\*\NTUSER.MAN"/>
+    </sample>
+    <sample name="WindowsUserRegistryFiles">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Windows\UsrClass.dat"/>
+    </sample>
+</getthis>

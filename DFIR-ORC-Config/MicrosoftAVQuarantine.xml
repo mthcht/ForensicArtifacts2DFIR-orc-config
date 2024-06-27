@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="MicrosoftAVQuarantine">
+        <ntfs_find path_match="ProgramData\Microsoft\Microsoft Antimalware\Quarantine\*"/>
+    </sample>
+    <sample name="MicrosoftAVQuarantine">
+        <ntfs_find path_match="ProgramData\Microsoft\Windows Defender\Quarantine\*"/>
+    </sample>
+</getthis>

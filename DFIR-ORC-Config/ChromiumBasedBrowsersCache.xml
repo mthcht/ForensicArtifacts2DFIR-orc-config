@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Brave\*\Application Cache\Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Brave\*\Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Brave\*\Cache\Cache_Data\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Brave\*\GPUCache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Brave\*\Media Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Opera Software\Opera Stable\*\Application Cache\Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Opera Software\Opera Stable\*\Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Opera Software\Opera Stable\*\Cache\Cache_Data\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Opera Software\Opera Stable\*\GPUCache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Opera Software\Opera Stable\*\Media Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\Application Cache\Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\Cache\Cache_Data\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\GPUCache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\Media Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\*\Application Cache\Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\*\Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\*\Cache\Cache_Data\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\*\GPUCache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\*\Media Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Application Cache\Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Cache\Cache_Data\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\GPUCache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Media Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Application Cache\Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Cache\Cache_Data\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\GPUCache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Media Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Application Cache\Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Cache\Cache_Data\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\GPUCache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Media Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge Beta\User Data\*\Application Cache\Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge Beta\User Data\*\Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge Beta\User Data\*\Cache\Cache_Data\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge Beta\User Data\*\GPUCache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge Beta\User Data\*\Media Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Application Cache\Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Cache\Cache_Data\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\GPUCache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Media Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Opera Software\Opera Stable\*\Cache_Data\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Yandex\YandexBrowser\User Data\*\Application Cache\Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Yandex\YandexBrowser\User Data\*\Cache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Yandex\YandexBrowser\User Data\*\Cache\Cache_Data\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Yandex\YandexBrowser\User Data\*\GPUCache\*"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Yandex\YandexBrowser\User Data\*\Media Cache\*"/>
+    </sample>
+</getthis>

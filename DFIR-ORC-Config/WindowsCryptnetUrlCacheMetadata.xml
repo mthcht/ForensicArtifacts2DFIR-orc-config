@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="WindowsCryptnetUrlCacheMetadata">
+        <ntfs_find path_match="Windows\System32\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\*"/>
+    </sample>
+    <sample name="WindowsCryptnetUrlCacheMetadata">
+        <ntfs_find path_match="Windows\SysWOW64\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\*"/>
+    </sample>
+    <sample name="WindowsCryptnetUrlCacheMetadata">
+        <ntfs_find path_match="Users\*\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\*"/>
+    </sample>
+</getthis>

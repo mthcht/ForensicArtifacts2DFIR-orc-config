@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="WindowsFirewallAuthorizedApplications">
+        <reg_list hive="HKEY_LOCAL_MACHINE" key="Software\Policies\Microsoft\WindowsFirewall\DomainProfile\AuthorizedApplications\List\*"/>
+    </sample>
+    <sample name="WindowsFirewallAuthorizedApplications">
+        <reg_list hive="HKEY_LOCAL_MACHINE" key="Software\Policies\Microsoft\WindowsFirewall\StandardProfile\AuthorizedApplications\List\*"/>
+    </sample>
+    <sample name="WindowsFirewallAuthorizedApplications">
+        <reg_list hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\DomainProfile\AuthorizedApplications\List\*"/>
+    </sample>
+    <sample name="WindowsFirewallAuthorizedApplications">
+        <reg_list hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\PublicProfile\AuthorizedApplications\List\*"/>
+    </sample>
+    <sample name="WindowsFirewallAuthorizedApplications">
+        <reg_list hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\AuthorizedApplications\List\*"/>
+    </sample>
+</getthis>

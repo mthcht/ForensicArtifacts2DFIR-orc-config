@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="ChromiumBasedBrowsersCookiesDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\Network\Cookies"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCookiesDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\Network\Cookies-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCookiesDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Cookies"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCookiesDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Cookies-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCookiesDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Network\Cookies"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCookiesDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Network\Cookies-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCookiesDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Cookies"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCookiesDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Cookies-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCookiesDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Network\Cookies"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCookiesDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Network\Cookies-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCookiesDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Cookies"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCookiesDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Cookies-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCookiesDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Network\Cookies"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCookiesDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Network\Cookies-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCookiesDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Cookies"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCookiesDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Cookies-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCookiesDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Network\Cookies"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCookiesDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Network\Cookies-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCookiesDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Opera Software\Opera Stable\Network\Cookies"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersCookiesDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Opera Software\Opera Stable\Network\Cookies-journal"/>
+    </sample>
+</getthis>

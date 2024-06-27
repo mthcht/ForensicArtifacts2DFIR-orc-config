@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="WindowsTempDirectories">
+        <ntfs_find path_match="Temp\*"/>
+    </sample>
+    <sample name="WindowsTempDirectories">
+        <ntfs_find path_match="Windows\Temp\*"/>
+    </sample>
+    <sample name="WindowsTempDirectories">
+        <ntfs_find path_match="Users\*\AppData\Local\Temp\*"/>
+    </sample>
+</getthis>

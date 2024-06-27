@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="FirefoxDownloads">
+        <ntfs_find path_match="Users\*\AppData\Local\Mozilla\Firefox\Profiles\*\downloads.sqlite"/>
+    </sample>
+    <sample name="FirefoxDownloads">
+        <ntfs_find path_match="Users\*\AppData\Local\Mozilla\Firefox\Profiles\*\downloads.sqlite-wal"/>
+    </sample>
+    <sample name="FirefoxDownloads">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Mozilla\Firefox\Profiles\*\downloads.sqlite"/>
+    </sample>
+    <sample name="FirefoxDownloads">
+        <ntfs_find path_match="Users\*\AppData\Local\Mozilla\Firefox\Profiles\*\downloads.sqlite-wal"/>
+    </sample>
+</getthis>

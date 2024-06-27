@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="ChromiumBasedBrowsersExtensionActivitySQLiteDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Brave\*\Extension Activity"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensionActivitySQLiteDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Opera Software\Opera Stable\*\Extension Activity"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensionActivitySQLiteDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\*\Extension Activity"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensionActivitySQLiteDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Extension Activity"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensionActivitySQLiteDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Extension Activity"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensionActivitySQLiteDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Extension Activity"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensionActivitySQLiteDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge Beta\User Data\*\Extension Activity"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensionActivitySQLiteDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Extension Activity"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensionActivitySQLiteDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Yandex\YandexBrowser\User Data\*\Extension Activity"/>
+    </sample>
+</getthis>

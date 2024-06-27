@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="WindowsCrashDumps">
+        <ntfs_find path_match="ProgramData\Microsoft\Windows\WER\*"/>
+    </sample>
+    <sample name="WindowsCrashDumps">
+        <ntfs_find path_match="Windows\*.dmp"/>
+    </sample>
+    <sample name="WindowsCrashDumps">
+        <ntfs_find path_match="Windows\Minidump\*.dmp"/>
+    </sample>
+    <sample name="WindowsCrashDumps">
+        <ntfs_find path_match="Windows\ServiceProfiles\AppData\Local\CrashDumps\*"/>
+    </sample>
+    <sample name="WindowsCrashDumps">
+        <ntfs_find path_match="Windows\ServiceProfiles\AppData\Local\Temp\*.dmp"/>
+    </sample>
+    <sample name="WindowsCrashDumps">
+        <ntfs_find path_match="Windows\System32\config\systemprofile\AppData\Local\CrashDumps\*"/>
+    </sample>
+    <sample name="WindowsCrashDumps">
+        <ntfs_find path_match="Windows\System32\config\systemprofile\AppData\Local\Temp\*.dmp"/>
+    </sample>
+    <sample name="WindowsCrashDumps">
+        <ntfs_find path_match="Windows\Temp\*.dmp"/>
+    </sample>
+    <sample name="WindowsCrashDumps">
+        <ntfs_find path_match="Users\*\AppData\Local\CrashDumps\*"/>
+    </sample>
+    <sample name="WindowsCrashDumps">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Windows\WER\*"/>
+    </sample>
+    <sample name="WindowsCrashDumps">
+        <ntfs_find path_match="Users\*\AppData\Local\Temp\*.dmp"/>
+    </sample>
+</getthis>

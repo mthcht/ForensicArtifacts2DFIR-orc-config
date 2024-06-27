@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="WindowsApplicationCompatibilityInstalledShimDatabases">
+        <ntfs_find path_match="Windows\AppPatch\drvmain.sdb"/>
+    </sample>
+    <sample name="WindowsApplicationCompatibilityInstalledShimDatabases">
+        <ntfs_find path_match="Windows\AppPatch\frxmain.sdb"/>
+    </sample>
+    <sample name="WindowsApplicationCompatibilityInstalledShimDatabases">
+        <ntfs_find path_match="Windows\AppPatch\msimain.sdb"/>
+    </sample>
+    <sample name="WindowsApplicationCompatibilityInstalledShimDatabases">
+        <ntfs_find path_match="Windows\AppPatch\pcamain.sdb"/>
+    </sample>
+    <sample name="WindowsApplicationCompatibilityInstalledShimDatabases">
+        <ntfs_find path_match="Windows\AppPatch\sysmain.sdb"/>
+    </sample>
+    <sample name="WindowsApplicationCompatibilityInstalledShimDatabases">
+        <ntfs_find path_match="Windows\AppPatch\AppPatch64\Custom\*"/>
+    </sample>
+    <sample name="WindowsApplicationCompatibilityInstalledShimDatabases">
+        <ntfs_find path_match="Windows\AppPatch\Custom\*"/>
+    </sample>
+    <sample name="WindowsApplicationCompatibilityInstalledShimDatabases">
+        <ntfs_find path_match="Windows\AppPatch\Custom\Custom64\*"/>
+    </sample>
+    <sample name="WindowsApplicationCompatibilityInstalledShimDatabases">
+        <ntfs_find path_match="Windows\AppPatch\CustomSDB\*"/>
+    </sample>
+</getthis>

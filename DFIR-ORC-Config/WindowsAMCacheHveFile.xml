@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="WindowsAMCacheHveFile">
+        <ntfs_find path_match="Windows\AppCompat\Programs\Amcache.hve"/>
+    </sample>
+    <sample name="WindowsAMCacheHveFile">
+        <ntfs_find path_match="Windows\AppCompat\Programs\Amcache.hve.LOG1"/>
+    </sample>
+    <sample name="WindowsAMCacheHveFile">
+        <ntfs_find path_match="Windows\AppCompat\Programs\Amcache.hve.LOG2"/>
+    </sample>
+</getthis>

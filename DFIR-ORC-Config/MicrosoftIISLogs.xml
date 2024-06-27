@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="MicrosoftIISLogs">
+        <ntfs_find path_match="inetpub\logs\LogFiles\*.log"/>
+    </sample>
+    <sample name="MicrosoftIISLogs">
+        <ntfs_find path_match="inetpub\logs\LogFiles\W3SVC*\*.log"/>
+    </sample>
+    <sample name="MicrosoftIISLogs">
+        <ntfs_find path_match="Resources\Directory\*\LogFiles\Web\W3SVC*\*.log"/>
+    </sample>
+    <sample name="MicrosoftIISLogs">
+        <ntfs_find path_match="Windows\System32\LogFiles\W3SVC*\*.log"/>
+    </sample>
+</getthis>

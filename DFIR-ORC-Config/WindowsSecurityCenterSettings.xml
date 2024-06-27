@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="WindowsSecurityCenterSettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Security Center" value="AntiSpyWareDisableNotify"/>
+    </sample>
+    <sample name="WindowsSecurityCenterSettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Wow6432Node\Microsoft\Security Center" value="AntiSpyWareDisableNotify"/>
+    </sample>
+    <sample name="WindowsSecurityCenterSettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Security Center" value="AntiVirusDisableNotify"/>
+    </sample>
+    <sample name="WindowsSecurityCenterSettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Wow6432Node\Microsoft\Security Center" value="AntiVirusDisableNotify"/>
+    </sample>
+    <sample name="WindowsSecurityCenterSettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Security Center" value="AntiVirusOverride"/>
+    </sample>
+    <sample name="WindowsSecurityCenterSettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Wow6432Node\Microsoft\Security Center" value="AntiVirusOverride"/>
+    </sample>
+    <sample name="WindowsSecurityCenterSettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Security Center" value="AutoUpdateDisableNotify"/>
+    </sample>
+    <sample name="WindowsSecurityCenterSettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Wow6432Node\Microsoft\Security Center" value="AutoUpdateDisableNotify"/>
+    </sample>
+    <sample name="WindowsSecurityCenterSettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Security Center" value="FirewallDisableNotify"/>
+    </sample>
+    <sample name="WindowsSecurityCenterSettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Wow6432Node\Microsoft\Security Center" value="FirewallDisableNotify"/>
+    </sample>
+    <sample name="WindowsSecurityCenterSettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Security Center" value="FirewallOverride"/>
+    </sample>
+    <sample name="WindowsSecurityCenterSettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Wow6432Node\Microsoft\Security Center" value="FirewallOverride"/>
+    </sample>
+    <sample name="WindowsSecurityCenterSettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Security Center" value="UpdatesDisableNotify"/>
+    </sample>
+    <sample name="WindowsSecurityCenterSettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Wow6432Node\Microsoft\Security Center" value="UpdatesDisableNotify"/>
+    </sample>
+    <sample name="WindowsSecurityCenterSettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Security Center" value="UpdatesOverride"/>
+    </sample>
+    <sample name="WindowsSecurityCenterSettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Wow6432Node\Microsoft\Security Center" value="UpdatesOverride"/>
+    </sample>
+    <sample name="WindowsSecurityCenterSettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Security Center" value="UacDisableNotify"/>
+    </sample>
+    <sample name="WindowsSecurityCenterSettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Wow6432Node\Microsoft\Security Center" value="UacDisableNotify"/>
+    </sample>
+</getthis>

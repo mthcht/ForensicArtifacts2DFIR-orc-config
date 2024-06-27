@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="WindowsDefenderExclusions">
+        <reg_list hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Windows Defender\Exclusions\Paths\*"/>
+    </sample>
+    <sample name="WindowsDefenderExclusions">
+        <reg_list hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Windows Defender\Exclusions\Processes\*"/>
+    </sample>
+    <sample name="WindowsDefenderExclusions">
+        <reg_list hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Windows Defender\Exclusions\Extensions\*"/>
+    </sample>
+    <sample name="WindowsDefenderExclusions">
+        <reg_list hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Windows Defender\Exclusions\TemporaryPaths\*"/>
+    </sample>
+    <sample name="WindowsDefenderExclusions">
+        <reg_list hive="HKEY_LOCAL_MACHINE" key="Software\Policies\Microsoft\Windows Defender\Exclusions\Paths\*"/>
+    </sample>
+    <sample name="WindowsDefenderExclusions">
+        <reg_list hive="HKEY_LOCAL_MACHINE" key="Software\Policies\Microsoft\Windows Defender\Exclusions\Processes\*"/>
+    </sample>
+    <sample name="WindowsDefenderExclusions">
+        <reg_list hive="HKEY_LOCAL_MACHINE" key="Software\Policies\Microsoft\Windows Defender\Exclusions\Extensions\*"/>
+    </sample>
+    <sample name="WindowsDefenderExclusions">
+        <reg_list hive="HKEY_LOCAL_MACHINE" key="Software\Policies\Microsoft\Windows Defender\Exclusions\TemporaryPaths\*"/>
+    </sample>
+</getthis>

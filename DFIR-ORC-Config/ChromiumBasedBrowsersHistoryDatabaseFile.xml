@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Brave\*\Archived History"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Brave\*\Archived History-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Brave\*\History"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Brave\*\History-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\BraveSoftware\Brave-Browser\User Data\*\History"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\BraveSoftware\Brave-Browser\User Data\*\History-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Opera Software\Opera Stable\*\Archived History"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Opera Software\Opera Stable\*\Archived History-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Opera Software\Opera Stable\*\History"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Opera Software\Opera Stable\*\History-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\*\Archived History"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\*\Archived History-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\*\History"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\*\History-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Archived History"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Archived History-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\History"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\History-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Archived History"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Archived History-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\History"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\History-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Archived History"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Archived History-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\History"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\History-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge Beta\User Data\*\Archived History"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge Beta\User Data\*\Archived History-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge Beta\User Data\*\History"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge Beta\User Data\*\History-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Archived History"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Archived History-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\History"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\History-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Yandex\YandexBrowser\User Data\*\Archived History"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Yandex\YandexBrowser\User Data\*\Archived History-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Yandex\YandexBrowser\User Data\*\History"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Yandex\YandexBrowser\User Data\*\History-journal"/>
+    </sample>
+</getthis>

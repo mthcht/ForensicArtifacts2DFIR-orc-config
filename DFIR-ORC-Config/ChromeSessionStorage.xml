@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="ChromeSessionStorage">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Session Storage\*"/>
+    </sample>
+    <sample name="ChromeSessionStorage">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Session Storage\*"/>
+    </sample>
+    <sample name="ChromeSessionStorage">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Session Storage\*"/>
+    </sample>
+    <sample name="ChromeSessionStorage">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Session Storage\*"/>
+    </sample>
+    <sample name="ChromeSessionStorage">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Sessions\Session_*"/>
+    </sample>
+    <sample name="ChromeSessionStorage">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Sessions\Tabs_*"/>
+    </sample>
+    <sample name="ChromeSessionStorage">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Sessions\Session_*"/>
+    </sample>
+    <sample name="ChromeSessionStorage">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Sessions\Tabs_*"/>
+    </sample>
+    <sample name="ChromeSessionStorage">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Sessions\Session_*"/>
+    </sample>
+    <sample name="ChromeSessionStorage">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Sessions\Tabs_*"/>
+    </sample>
+    <sample name="ChromeSessionStorage">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Sessions\Session_*"/>
+    </sample>
+    <sample name="ChromeSessionStorage">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Sessions\Tabs_*"/>
+    </sample>
+</getthis>

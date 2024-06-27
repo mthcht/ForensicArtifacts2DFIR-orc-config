@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="SymantecAVQuarantine">
+        <ntfs_find path_match="ProgramData\Symantec\Symantec Endpoint Protection\*5\*.vbn"/>
+    </sample>
+    <sample name="SymantecAVQuarantine">
+        <ntfs_find path_match="ProgramData\Symantec\Symantec Endpoint Protection\Quarantine\*"/>
+    </sample>
+    <sample name="SymantecAVQuarantine">
+        <ntfs_find path_match="ProgramData\Symantec\Symantec Endpoint Protection\*\Data\Quarantine\*"/>
+    </sample>
+    <sample name="SymantecAVQuarantine">
+        <ntfs_find path_match="ProgramData\Symantec\Symantec Endpoint Protection\*\Data\CmnClnt\ccSubSDK\*"/>
+    </sample>
+</getthis>

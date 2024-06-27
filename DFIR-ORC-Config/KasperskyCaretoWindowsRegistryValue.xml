@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="KasperskyCaretoWindowsRegistryValue">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Windows\CurrentVersion\Explorer\WindowsUpdate" value="CISCNF4654"/>
+    </sample>
+    <sample name="KasperskyCaretoWindowsRegistryValue">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Windows\CurrentVersion\Explorer\WindowsUpdate" value="CISCNF0654"/>
+    </sample>
+    <sample name="KasperskyCaretoWindowsRegistryValue">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Microsoft\Windows\CurrentVersion\Explorer\WindowsUpdate" value="CISCNF4654"/>
+    </sample>
+    <sample name="KasperskyCaretoWindowsRegistryValue">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Microsoft\Windows\CurrentVersion\Explorer\WindowsUpdate" value="CISCNF0654"/>
+    </sample>
+    <sample name="KasperskyCaretoWindowsRegistryValue">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Classes\\CLSID\{ECD4FC4D-521C-11D0-B792-00A0C90312E1}" value="InprocServer32"/>
+    </sample>
+    <sample name="KasperskyCaretoWindowsRegistryValue">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Classes\CLSID\{E6BB64BE-0618-4353-9193-0AFE606D6F0C}" value="InprocServer32"/>
+    </sample>
+</getthis>

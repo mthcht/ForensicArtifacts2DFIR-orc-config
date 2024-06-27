@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="MicrosoftOfficeMRU">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Microsoft\Office\*\*\File MRU" value="Item *"/>
+    </sample>
+    <sample name="MicrosoftOfficeMRU">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Microsoft\Office\*\*\Place MRU" value="Item *"/>
+    </sample>
+</getthis>

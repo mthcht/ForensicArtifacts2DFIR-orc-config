@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="WindowsConfigSys">
+        <ntfs_find path_match="config.sys"/>
+    </sample>
+    <sample name="WindowsConfigSys">
+        <ntfs_find path_match="Windows\config.nt"/>
+    </sample>
+</getthis>

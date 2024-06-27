@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="WindowsLanguage">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Control\Nls\Language" value="Default"/>
+    </sample>
+</getthis>

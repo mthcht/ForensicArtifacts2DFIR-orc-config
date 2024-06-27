@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="WindowsSessionManagerS0InitialCommand">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Control\Session Manager" value="S0InitialCommand"/>
+    </sample>
+</getthis>

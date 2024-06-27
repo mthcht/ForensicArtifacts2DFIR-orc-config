@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="TomcatLogFiles">
+        <ntfs_find path_match="ProgramData\Apache Software Foundation\Tomcat*\logs\*\access_log*"/>
+    </sample>
+    <sample name="TomcatLogFiles">
+        <ntfs_find path_match="ProgramData\Apache Software Foundation\Tomcat*\logs\access_log*"/>
+    </sample>
+    <sample name="TomcatLogFiles">
+        <ntfs_find path_match="ProgramData\Apache Software Foundation\Tomcat*\logs\*\catalina.out"/>
+    </sample>
+    <sample name="TomcatLogFiles">
+        <ntfs_find path_match="ProgramData\Apache Software Foundation\Tomcat*\logs\catalina.out"/>
+    </sample>
+    <sample name="TomcatLogFiles">
+        <ntfs_find path_match="Program Files\Apache Software Foundation\Tomcat*\logs\*\access_log*"/>
+    </sample>
+    <sample name="TomcatLogFiles">
+        <ntfs_find path_match="Program Files\Apache Software Foundation\Tomcat*\logs\access_log*"/>
+    </sample>
+    <sample name="TomcatLogFiles">
+        <ntfs_find path_match="Program Files\Apache Software Foundation\Tomcat*\logs\*\catalina.out"/>
+    </sample>
+    <sample name="TomcatLogFiles">
+        <ntfs_find path_match="Program Files\Apache Software Foundation\Tomcat*\logs\catalina.out"/>
+    </sample>
+    <sample name="TomcatLogFiles">
+        <ntfs_find path_match="Program Files (x86)\Apache Software Foundation\Tomcat*\logs\*\access_log*"/>
+    </sample>
+    <sample name="TomcatLogFiles">
+        <ntfs_find path_match="Program Files (x86)\Apache Software Foundation\Tomcat*\logs\access_log*"/>
+    </sample>
+    <sample name="TomcatLogFiles">
+        <ntfs_find path_match="Program Files (x86)\Apache Software Foundation\Tomcat*\logs\*\catalina.out"/>
+    </sample>
+    <sample name="TomcatLogFiles">
+        <ntfs_find path_match="Program Files (x86)\Apache Software Foundation\Tomcat*\logs\catalina.out"/>
+    </sample>
+</getthis>

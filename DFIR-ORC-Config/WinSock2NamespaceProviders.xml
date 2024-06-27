@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="WinSock2NamespaceProviders">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\*" value="LibraryPath"/>
+    </sample>
+    <sample name="WinSock2NamespaceProviders">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries64\*" value="LibraryPath"/>
+    </sample>
+</getthis>

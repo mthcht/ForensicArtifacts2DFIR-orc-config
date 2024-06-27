@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="WindowsEventTracingLogFiles">
+        <ntfs_find path_match="ProgramData\Microsoft\Diagnosis\ETLLogs\ShutdownLogger\*.etl"/>
+    </sample>
+    <sample name="WindowsEventTracingLogFiles">
+        <ntfs_find path_match="ProgramData\Microsoft\DiagnosticLogCSP\Collectors\*.etl"/>
+    </sample>
+    <sample name="WindowsEventTracingLogFiles">
+        <ntfs_find path_match="ProgramData\Microsoft\Windows\wfp\*.etl"/>
+    </sample>
+    <sample name="WindowsEventTracingLogFiles">
+        <ntfs_find path_match="ProgramData\Microsoft\Windows Security Health\Logs\*.etl"/>
+    </sample>
+    <sample name="WindowsEventTracingLogFiles">
+        <ntfs_find path_match="ProgramData\USOShared\Logs\System\*.etl"/>
+    </sample>
+    <sample name="WindowsEventTracingLogFiles">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\OneDrive\logs\Personal\*.etl"/>
+    </sample>
+    <sample name="WindowsEventTracingLogFiles">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Windows\Explorer\*.etl"/>
+    </sample>
+    <sample name="WindowsEventTracingLogFiles">
+        <ntfs_find path_match="Users\*\AppData\Local\Packages\Microsoft.Windows.Photos_*\LocalState\*.etl"/>
+    </sample>
+    <sample name="WindowsEventTracingLogFiles">
+        <ntfs_find path_match="Windows\Logs\*\*.etl"/>
+    </sample>
+    <sample name="WindowsEventTracingLogFiles">
+        <ntfs_find path_match="Windows\Panther\*.etl"/>
+    </sample>
+    <sample name="WindowsEventTracingLogFiles">
+        <ntfs_find path_match="Windows\Security\Logs\*.etl"/>
+    </sample>
+    <sample name="WindowsEventTracingLogFiles">
+        <ntfs_find path_match="Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\*.etl"/>
+    </sample>
+    <sample name="WindowsEventTracingLogFiles">
+        <ntfs_find path_match="Windows\System32\LogFiles\WMI\*.etl"/>
+    </sample>
+    <sample name="WindowsEventTracingLogFiles">
+        <ntfs_find path_match="Windows\System32\LogFiles\WMI\*.etl.0*"/>
+    </sample>
+    <sample name="WindowsEventTracingLogFiles">
+        <ntfs_find path_match="Windows\System32\LogFiles\WMI\RtBackup\*.etl"/>
+    </sample>
+    <sample name="WindowsEventTracingLogFiles">
+        <ntfs_find path_match="Windows\System32\SleepStudy\*.etl"/>
+    </sample>
+    <sample name="WindowsEventTracingLogFiles">
+        <ntfs_find path_match="Windows\System32\SleepStudy\ScreenOn\*.etl"/>
+    </sample>
+    <sample name="WindowsEventTracingLogFiles">
+        <ntfs_find path_match="Windows\System32\WDI\LogFiles\*.etl"/>
+    </sample>
+    <sample name="WindowsEventTracingLogFiles">
+        <ntfs_find path_match="Windows\System32\WDI\LogFiles\*.etl.0*"/>
+    </sample>
+    <sample name="WindowsEventTracingLogFiles">
+        <ntfs_find path_match="Windows\System32\WDI\{86432a0b-3c7d-4ddf-a89c-172faa90485d}\*\*.etl"/>
+    </sample>
+</getthis>

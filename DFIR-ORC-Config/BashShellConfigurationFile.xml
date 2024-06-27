@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="BashShellConfigurationFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Packages\*\LocalState\rootfs\home\*\.bash_logout"/>
+    </sample>
+    <sample name="BashShellConfigurationFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Packages\*\LocalState\rootfs\home\*\.bash_profile"/>
+    </sample>
+    <sample name="BashShellConfigurationFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Packages\*\LocalState\rootfs\home\*\.bashrc"/>
+    </sample>
+</getthis>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="WindowsCOMLocalServers">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Classes\CLSID\*" value="LocalServer"/>
+    </sample>
+    <sample name="WindowsCOMLocalServers">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Classes\CLSID\*\LocalServer32" value=""/>
+    </sample>
+    <sample name="WindowsCOMLocalServers">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Classes\CLSID\*\LocalServer32" value="ServerExecutable"/>
+    </sample>
+    <sample name="WindowsCOMLocalServers">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Classes\Wow6432Node\CLSID\*" value="LocalServer"/>
+    </sample>
+    <sample name="WindowsCOMLocalServers">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Classes\Wow6432Node\CLSID\*\LocalServer32" value=""/>
+    </sample>
+    <sample name="WindowsCOMLocalServers">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Classes\Wow6432Node\CLSID\*\LocalServer32" value="ServerExecutable"/>
+    </sample>
+    <sample name="WindowsCOMLocalServers">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Classes\CLSID\*" value="LocalServer"/>
+    </sample>
+    <sample name="WindowsCOMLocalServers">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Classes\CLSID\*\LocalServer32" value=""/>
+    </sample>
+    <sample name="WindowsCOMLocalServers">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Classes\CLSID\*\LocalServer32" value="ServerExecutable"/>
+    </sample>
+    <sample name="WindowsCOMLocalServers">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Classes\Wow6432Node\CLSID\*" value="LocalServer"/>
+    </sample>
+    <sample name="WindowsCOMLocalServers">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Classes\Wow6432Node\CLSID\*\LocalServer32" value=""/>
+    </sample>
+    <sample name="WindowsCOMLocalServers">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Classes\Wow6432Node\CLSID\*\LocalServer32" value="ServerExecutable"/>
+    </sample>
+</getthis>

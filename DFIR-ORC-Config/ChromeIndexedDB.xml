@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="ChromeIndexedDB">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\IndexedDB\*5"/>
+    </sample>
+    <sample name="ChromeIndexedDB">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\IndexedDB\*5"/>
+    </sample>
+    <sample name="ChromeIndexedDB">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\IndexedDB\*5"/>
+    </sample>
+    <sample name="ChromeIndexedDB">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\IndexedDB\*5"/>
+    </sample>
+</getthis>

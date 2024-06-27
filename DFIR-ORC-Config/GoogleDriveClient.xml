@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="GoogleDriveClient">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Drive\snapshot.db"/>
+    </sample>
+    <sample name="GoogleDriveClient">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Drive\sync_config.db"/>
+    </sample>
+    <sample name="GoogleDriveClient">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Drive\sync_config.log*"/>
+    </sample>
+    <sample name="GoogleDriveClient">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Drive\user_default\snapshot.db"/>
+    </sample>
+    <sample name="GoogleDriveClient">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Drive\user_default\sync_config.db"/>
+    </sample>
+    <sample name="GoogleDriveClient">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Drive\user_default\sync_config.log*"/>
+    </sample>
+    <sample name="GoogleDriveClient">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Drive\user_default\sync_log.log*"/>
+    </sample>
+</getthis>

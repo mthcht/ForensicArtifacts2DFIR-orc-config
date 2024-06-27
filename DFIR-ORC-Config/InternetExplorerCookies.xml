@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="InternetExplorerCookies">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Microsoft\Windows\Cookies\index.dat"/>
+    </sample>
+    <sample name="InternetExplorerCookies">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Microsoft\Windows\Cookies\Low\index.dat"/>
+    </sample>
+</getthis>

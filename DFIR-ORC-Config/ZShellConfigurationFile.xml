@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="ZShellConfigurationFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Packages\*\LocalState\rootfs\home\*\.zlogin"/>
+    </sample>
+    <sample name="ZShellConfigurationFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Packages\*\LocalState\rootfs\home\*\.zlogout"/>
+    </sample>
+    <sample name="ZShellConfigurationFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Packages\*\LocalState\rootfs\home\*\.zprofile"/>
+    </sample>
+</getthis>

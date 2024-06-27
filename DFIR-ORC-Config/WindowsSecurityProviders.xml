@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="WindowsSecurityProviders">
+        <reg_list hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Control\SecurityProviders\*"/>
+    </sample>
+</getthis>

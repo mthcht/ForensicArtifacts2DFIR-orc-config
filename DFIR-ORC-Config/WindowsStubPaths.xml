@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="WindowsStubPaths">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Active Setup\Installed Components\*" value="StubPath"/>
+    </sample>
+    <sample name="WindowsStubPaths">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Active Setup\Installed Components\*" value="Version"/>
+    </sample>
+    <sample name="WindowsStubPaths">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Wow6432Node\Microsoft\Active Setup\Installed Components\*" value="StubPath"/>
+    </sample>
+    <sample name="WindowsStubPaths">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Wow6432Node\Microsoft\Active Setup\Installed Components\*" value="Version"/>
+    </sample>
+    <sample name="WindowsStubPaths">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Microsoft\Active Setup\Installed Components\*" value="StubPath"/>
+    </sample>
+    <sample name="WindowsStubPaths">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Microsoft\Active Setup\Installed Components\*" value="Version"/>
+    </sample>
+    <sample name="WindowsStubPaths">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Wow6432Node\Microsoft\Active Setup\Installed Components\*" value="StubPath"/>
+    </sample>
+    <sample name="WindowsStubPaths">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Wow6432Node\Microsoft\Active Setup\Installed Components\*" value="Version"/>
+    </sample>
+</getthis>

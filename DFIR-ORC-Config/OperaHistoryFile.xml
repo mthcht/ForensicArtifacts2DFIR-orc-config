@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="OperaHistoryFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Opera\Opera\global_history.dat"/>
+    </sample>
+    <sample name="OperaHistoryFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Opera Software\Opera Stable\History"/>
+    </sample>
+    <sample name="OperaHistoryFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Opera Software\Opera Stable\History-journal"/>
+    </sample>
+</getthis>

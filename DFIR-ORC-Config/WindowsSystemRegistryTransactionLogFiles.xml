@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="WindowsSystemRegistryTransactionLogFiles">
+        <ntfs_find path_match="Windows\System32\config\SAM.LOG"/>
+    </sample>
+    <sample name="WindowsSystemRegistryTransactionLogFiles">
+        <ntfs_find path_match="Windows\System32\config\SAM.LOG1"/>
+    </sample>
+    <sample name="WindowsSystemRegistryTransactionLogFiles">
+        <ntfs_find path_match="Windows\System32\config\SAM.LOG2"/>
+    </sample>
+    <sample name="WindowsSystemRegistryTransactionLogFiles">
+        <ntfs_find path_match="Windows\System32\config\SECURITY.LOG"/>
+    </sample>
+    <sample name="WindowsSystemRegistryTransactionLogFiles">
+        <ntfs_find path_match="Windows\System32\config\SECURITY.LOG1"/>
+    </sample>
+    <sample name="WindowsSystemRegistryTransactionLogFiles">
+        <ntfs_find path_match="Windows\System32\config\SECURITY.LOG2"/>
+    </sample>
+    <sample name="WindowsSystemRegistryTransactionLogFiles">
+        <ntfs_find path_match="Windows\System32\config\SOFTWARE.LOG"/>
+    </sample>
+    <sample name="WindowsSystemRegistryTransactionLogFiles">
+        <ntfs_find path_match="Windows\System32\config\SOFTWARE.LOG1"/>
+    </sample>
+    <sample name="WindowsSystemRegistryTransactionLogFiles">
+        <ntfs_find path_match="Windows\System32\config\SOFTWARE.LOG2"/>
+    </sample>
+    <sample name="WindowsSystemRegistryTransactionLogFiles">
+        <ntfs_find path_match="Windows\System32\config\SYSTEM.LOG"/>
+    </sample>
+    <sample name="WindowsSystemRegistryTransactionLogFiles">
+        <ntfs_find path_match="Windows\System32\config\SYSTEM.LOG1"/>
+    </sample>
+    <sample name="WindowsSystemRegistryTransactionLogFiles">
+        <ntfs_find path_match="Windows\System32\config\SYSTEM.LOG2"/>
+    </sample>
+</getthis>

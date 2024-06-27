@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="WindowsAvailableTimeZones">
+        <reg_list hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Windows NT\CurrentVersion\Time Zones\*"/>
+    </sample>
+</getthis>

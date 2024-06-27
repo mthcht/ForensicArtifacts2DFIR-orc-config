@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="InternetExplorerTypedURLsKeys">
+        <reg_list hive="HKEY_USERS" key="%%users.sid%%\Software\Microsoft\Internet Explorer\TypedURLs\*"/>
+    </sample>
+</getthis>

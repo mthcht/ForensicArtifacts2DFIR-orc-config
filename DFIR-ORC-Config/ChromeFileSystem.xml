@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="ChromeFileSystem">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\File System\*5"/>
+    </sample>
+    <sample name="ChromeFileSystem">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\File System\*5"/>
+    </sample>
+    <sample name="ChromeFileSystem">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\File System\*5"/>
+    </sample>
+    <sample name="ChromeFileSystem">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\File System\*5"/>
+    </sample>
+</getthis>

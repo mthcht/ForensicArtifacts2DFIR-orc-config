@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="WindowsLogoffScript">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Policies\Microsoft\Windows\System\Scripts" value="Logoff"/>
+    </sample>
+    <sample name="WindowsLogoffScript">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Policies\Microsoft\Windows\System\Scripts" value="Logoff"/>
+    </sample>
+</getthis>

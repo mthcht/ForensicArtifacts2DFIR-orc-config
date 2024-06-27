@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="FirefoxCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Mozilla\Firefox\Profiles\*.default\Cache\*"/>
+    </sample>
+    <sample name="FirefoxCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Mozilla\Firefox\Profiles\*.default\cache2\*"/>
+    </sample>
+    <sample name="FirefoxCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Mozilla\Firefox\Profiles\*.default\cache2\doomed\*"/>
+    </sample>
+    <sample name="FirefoxCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Mozilla\Firefox\Profiles\*.default\cache2\entries\*"/>
+    </sample>
+    <sample name="FirefoxCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Mozilla\Firefox\Profiles\*.default-*\Cache\*"/>
+    </sample>
+    <sample name="FirefoxCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Mozilla\Firefox\Profiles\*.default-*\cache2\*"/>
+    </sample>
+    <sample name="FirefoxCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Mozilla\Firefox\Profiles\*.default-*\cache2\doomed\*"/>
+    </sample>
+    <sample name="FirefoxCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Mozilla\Firefox\Profiles\*.default-*\cache2\entries\*"/>
+    </sample>
+</getthis>
