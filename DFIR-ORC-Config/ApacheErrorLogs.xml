@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="ApacheErrorLogs">
+        <ntfs_find path_match="var\log\apache\error*"/>
+    </sample>
+    <sample name="ApacheErrorLogs">
+        <ntfs_find path_match="var\log\apache\error.log*"/>
+    </sample>
+    <sample name="ApacheErrorLogs">
+        <ntfs_find path_match="var\log\apache2\error*"/>
+    </sample>
+    <sample name="ApacheErrorLogs">
+        <ntfs_find path_match="var\log\apache2\error.log*"/>
+    </sample>
+    <sample name="ApacheErrorLogs">
+        <ntfs_find path_match="var\log\httpd\error*"/>
+    </sample>
+    <sample name="ApacheErrorLogs">
+        <ntfs_find path_match="var\log\httpd\error.log*"/>
+    </sample>
+    <sample name="ApacheErrorLogs">
+        <ntfs_find path_match="**6\logs\error.log*"/>
+    </sample>
+</getthis>

@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="WindowsHotkeyReplacement">
+        <ntfs_find path_match="Windows\System32\magnifier.exe"/>
+    </sample>
+    <sample name="WindowsHotkeyReplacement">
+        <ntfs_find path_match="Windows\System32\sethc.exe"/>
+    </sample>
+    <sample name="WindowsHotkeyReplacement">
+        <ntfs_find path_match="Windows\System32\utilman.exe"/>
+    </sample>
+</getthis>

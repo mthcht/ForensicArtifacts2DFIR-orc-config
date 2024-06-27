@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="ChromeLocalStorage">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Chromium\*\Local Storage\**"/>
+    </sample>
+    <sample name="ChromeLocalStorage">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Beta\*\Local Storage\**"/>
+    </sample>
+    <sample name="ChromeLocalStorage">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Canary\*\Local Storage\**"/>
+    </sample>
+    <sample name="ChromeLocalStorage">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome\*\Local Storage\**"/>
+    </sample>
+    <sample name="ChromeLocalStorage">
+        <ntfs_find path_match="%%users.homedir%%\.config\google-chrome\*\Local Storage\**"/>
+    </sample>
+    <sample name="ChromeLocalStorage">
+        <ntfs_find path_match="%%users.homedir%%\.config\chromium\*\Local Storage\**"/>
+    </sample>
+    <sample name="ChromeLocalStorage">
+        <ntfs_find path_match="%%users.homedir%%\.config\google-chrome-beta\*\Local Storage\**"/>
+    </sample>
+    <sample name="ChromeLocalStorage">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-profile\*\Local Storage\**"/>
+    </sample>
+    <sample name="ChromeLocalStorage">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-config\google-chrome\*\Local Storage\**"/>
+    </sample>
+    <sample name="ChromeLocalStorage">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Local Storage\**"/>
+    </sample>
+    <sample name="ChromeLocalStorage">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Local Storage\**"/>
+    </sample>
+    <sample name="ChromeLocalStorage">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Local Storage\**"/>
+    </sample>
+    <sample name="ChromeLocalStorage">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Local Storage\**"/>
+    </sample>
+</getthis>

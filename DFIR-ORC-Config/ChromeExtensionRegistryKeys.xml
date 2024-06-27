@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="ChromeExtensionRegistryKeys">
+        <reg_list hive="HKEY_LOCAL_MACHINE" key="Software\Google\Chrome\Extensions\**5"/>
+    </sample>
+    <sample name="ChromeExtensionRegistryKeys">
+        <reg_list hive="HKEY_LOCAL_MACHINE" key="Software\Wow6432Node\Google\Chrome\Extensions\**5"/>
+    </sample>
+</getthis>

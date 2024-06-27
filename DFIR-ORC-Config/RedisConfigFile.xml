@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="RedisConfigFile">
+        <ntfs_find path_match="Program Files\Redis\conf\redis.windows.conf"/>
+    </sample>
+    <sample name="RedisConfigFile">
+        <ntfs_find path_match="Program Files\Redis\conf\redis.conf"/>
+    </sample>
+    <sample name="RedisConfigFile">
+        <ntfs_find path_match="etc\redis\redis.conf"/>
+    </sample>
+    <sample name="RedisConfigFile">
+        <ntfs_find path_match="etc\redis\redis.conf"/>
+    </sample>
+    <sample name="RedisConfigFile">
+        <ntfs_find path_match="private\etc\redis\redis.conf"/>
+    </sample>
+</getthis>

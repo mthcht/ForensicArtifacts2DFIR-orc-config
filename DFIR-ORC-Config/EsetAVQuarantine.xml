@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="EsetAVQuarantine">
+        <ntfs_find path_match="Library\Application Support\ESET\esets\cache\quarantine\*"/>
+    </sample>
+    <sample name="EsetAVQuarantine">
+        <ntfs_find path_match="ProgramData\ESET\ESET NOD32 Antivirus\Logs\**"/>
+    </sample>
+</getthis>

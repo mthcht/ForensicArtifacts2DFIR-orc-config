@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="SafariCacheSQLiteDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Caches\com.apple.Safari\Cache.db"/>
+    </sample>
+    <sample name="SafariCacheSQLiteDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Caches\com.apple.Safari\Cache.db-wal"/>
+    </sample>
+    <sample name="SafariCacheSQLiteDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Containers\com.apple.Safari\Data\Library\Caches\com.apple.Safari\Cache.db"/>
+    </sample>
+    <sample name="SafariCacheSQLiteDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Containers\com.apple.Safari\Data\Library\Caches\com.apple.Safari\Cache.db-wal"/>
+    </sample>
+    <sample name="SafariCacheSQLiteDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Apple Computer\Safari\cache.db"/>
+    </sample>
+</getthis>

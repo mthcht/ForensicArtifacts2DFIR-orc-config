@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="WindowsRoverAutostartKey">
+        <reg_list hive="HKEY_CLASSES_ROOT" key="CLSID\{16d12736-7a9e-4765-bec6-f301d679caaa}"/>
+    </sample>
+</getthis>

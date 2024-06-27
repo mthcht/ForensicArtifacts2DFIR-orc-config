@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="WindowsSearchDatabaseFile">
+        <ntfs_find path_match="ProgramData\Microsoft\Search\Data\Applications\Windows\Windows.edb"/>
+    </sample>
+</getthis>

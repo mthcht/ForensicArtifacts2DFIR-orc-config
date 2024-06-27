@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="WindowsScreenSaverExecutable">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Policies\Microsoft\Windows\Control Panel\Desktop" value="scrnsave.exe"/>
+    </sample>
+    <sample name="WindowsScreenSaverExecutable">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Control Panel\Desktop" value="scrnsave.exe"/>
+    </sample>
+</getthis>

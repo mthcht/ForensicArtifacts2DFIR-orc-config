@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="WindowsWinlogonGPExtensions">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Windows NT\CurrentVersion\Winlogon\GPExtensions\*" value=""/>
+    </sample>
+    <sample name="WindowsWinlogonGPExtensions">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Windows NT\CurrentVersion\Winlogon\GPExtensions\*" value="DllName"/>
+    </sample>
+    <sample name="WindowsWinlogonGPExtensions">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Winlogon\GPExtensions\*" value=""/>
+    </sample>
+    <sample name="WindowsWinlogonGPExtensions">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Winlogon\GPExtensions\*" value="DllName"/>
+    </sample>
+</getthis>

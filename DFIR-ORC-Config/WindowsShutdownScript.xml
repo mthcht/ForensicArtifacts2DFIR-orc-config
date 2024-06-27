@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="WindowsShutdownScript">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Policies\Microsoft\Windows\System\Scripts" value="Shutdown"/>
+    </sample>
+    <sample name="WindowsShutdownScript">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Windows\CurrentVersion\Group Policy\Scripts\Shutdown\*\*" value="Script"/>
+    </sample>
+    <sample name="WindowsShutdownScript">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Windows\CurrentVersion\Group Policy\Scripts\Shutdown\*\*" value="Parameters"/>
+    </sample>
+    <sample name="WindowsShutdownScript">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Windows\CurrentVersion\Group Policy\State\Machine\Scripts\Shutdown\*\*" value="Script"/>
+    </sample>
+    <sample name="WindowsShutdownScript">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Windows\CurrentVersion\Group Policy\State\Machine\Scripts\Shutdown\*\*" value="Parameters"/>
+    </sample>
+</getthis>

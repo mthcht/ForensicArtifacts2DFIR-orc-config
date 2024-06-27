@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="ZShellHistoryFile">
+        <ntfs_find path_match="%%users.homedir%%\.zhistory"/>
+    </sample>
+    <sample name="ZShellHistoryFile">
+        <ntfs_find path_match="%%users.homedir%%\.zsh_history"/>
+    </sample>
+    <sample name="ZShellHistoryFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Packages\*\LocalState\rootfs\home\*\.zhistory"/>
+    </sample>
+    <sample name="ZShellHistoryFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Packages\*\LocalState\rootfs\home\*\.zsh_history"/>
+    </sample>
+</getthis>

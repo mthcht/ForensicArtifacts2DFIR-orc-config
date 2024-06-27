@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="WindowsCommonFilePlacementAttacks">
+        <ntfs_find path_match="Program Files\Internet Explorer\sxs.dll"/>
+    </sample>
+    <sample name="WindowsCommonFilePlacementAttacks">
+        <ntfs_find path_match="Program Files (x86)\Internet Explorer\sxs.dll"/>
+    </sample>
+    <sample name="WindowsCommonFilePlacementAttacks">
+        <ntfs_find path_match="explorer.exe"/>
+    </sample>
+    <sample name="WindowsCommonFilePlacementAttacks">
+        <ntfs_find path_match="program.exe"/>
+    </sample>
+    <sample name="WindowsCommonFilePlacementAttacks">
+        <ntfs_find path_match="Windows\linkinfo.dll"/>
+    </sample>
+    <sample name="WindowsCommonFilePlacementAttacks">
+        <ntfs_find path_match="Windows\ntshrui.dll"/>
+    </sample>
+    <sample name="WindowsCommonFilePlacementAttacks">
+        <ntfs_find path_match="Windows\System32\oci.dll"/>
+    </sample>
+    <sample name="WindowsCommonFilePlacementAttacks">
+        <ntfs_find path_match="Windows\System32\sysprep\cryptbase.dll"/>
+    </sample>
+    <sample name="WindowsCommonFilePlacementAttacks">
+        <ntfs_find path_match="Windows\SysWOW64\oci.dll"/>
+    </sample>
+    <sample name="WindowsCommonFilePlacementAttacks">
+        <ntfs_find path_match="Windows\SysWOW64\sysprep\cryptbase.dll"/>
+    </sample>
+</getthis>

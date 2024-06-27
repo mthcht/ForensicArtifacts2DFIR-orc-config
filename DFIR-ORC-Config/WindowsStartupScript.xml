@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="WindowsStartupScript">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Policies\Microsoft\Windows\System\Scripts" value="Startup"/>
+    </sample>
+    <sample name="WindowsStartupScript">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Windows\CurrentVersion\Group Policy\Scripts\Startup\*\*" value="Script"/>
+    </sample>
+    <sample name="WindowsStartupScript">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Windows\CurrentVersion\Group Policy\Scripts\Startup\*\*" value="Parameters"/>
+    </sample>
+    <sample name="WindowsStartupScript">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Windows\CurrentVersion\Group Policy\State\Machine\Scripts\Startup\*\*" value="Script"/>
+    </sample>
+    <sample name="WindowsStartupScript">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Windows\CurrentVersion\Group Policy\State\Machine\Scripts\Startup\*\*" value="Parameters"/>
+    </sample>
+</getthis>

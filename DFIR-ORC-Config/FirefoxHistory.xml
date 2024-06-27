@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="FirefoxHistory">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Firefox\Profiles\*\places.sqlite"/>
+    </sample>
+    <sample name="FirefoxHistory">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Firefox\Profiles\*\places.sqlite-wal"/>
+    </sample>
+    <sample name="FirefoxHistory">
+        <ntfs_find path_match="%%users.homedir%%\.mozilla\firefox\*\places.sqlite"/>
+    </sample>
+    <sample name="FirefoxHistory">
+        <ntfs_find path_match="%%users.homedir%%\.mozilla\firefox\*\places.sqlite-wal"/>
+    </sample>
+    <sample name="FirefoxHistory">
+        <ntfs_find path_match="%%users.homedir%%\snap\firefox\common\.mozilla\firefox\*\places.sqlite"/>
+    </sample>
+    <sample name="FirefoxHistory">
+        <ntfs_find path_match="%%users.homedir%%\snap\firefox\common\.mozilla\firefox\*\places.sqlite-wal"/>
+    </sample>
+    <sample name="FirefoxHistory">
+        <ntfs_find path_match="Users\*\AppData\Local\Mozilla\Firefox\Profiles\*\places.sqlite"/>
+    </sample>
+    <sample name="FirefoxHistory">
+        <ntfs_find path_match="Users\*\AppData\Local\Mozilla\Firefox\Profiles\*\places.sqlite-wal"/>
+    </sample>
+    <sample name="FirefoxHistory">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Mozilla\Firefox\Profiles\*\places.sqlite"/>
+    </sample>
+    <sample name="FirefoxHistory">
+        <ntfs_find path_match="Users\*\AppData\Local\Mozilla\Firefox\Profiles\*\places.sqlite-wal"/>
+    </sample>
+</getthis>

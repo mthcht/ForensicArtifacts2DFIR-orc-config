@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="InternetExplorerCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\*\*"/>
+    </sample>
+    <sample name="InternetExplorerCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Windows\Temporary Internet Files\Low\Content.IE5\*\*"/>
+    </sample>
+    <sample name="InternetExplorerCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Windows\INetCache\IE\*\*"/>
+    </sample>
+    <sample name="InternetExplorerCache">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Windows\INetCache\Low\*\*"/>
+    </sample>
+</getthis>

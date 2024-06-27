@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="InternetExplorerIndexDatFiles">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Microsoft\Windows\IEDownloadHistory\index.dat"/>
+    </sample>
+    <sample name="InternetExplorerIndexDatFiles">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Feeds Cache\index.dat"/>
+    </sample>
+    <sample name="InternetExplorerIndexDatFiles">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Windows\History\History.IE5\*\index.dat"/>
+    </sample>
+    <sample name="InternetExplorerIndexDatFiles">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Windows\History\History.IE5\index.dat"/>
+    </sample>
+    <sample name="InternetExplorerIndexDatFiles">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Windows\History\Low\History.IE5\*\index.dat"/>
+    </sample>
+    <sample name="InternetExplorerIndexDatFiles">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Windows\History\Low\History.IE5\index.dat"/>
+    </sample>
+    <sample name="InternetExplorerIndexDatFiles">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\index.dat"/>
+    </sample>
+    <sample name="InternetExplorerIndexDatFiles">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Windows\Temporary Internet Files\Low\Content.IE5\index.dat"/>
+    </sample>
+    <sample name="InternetExplorerIndexDatFiles">
+        <ntfs_find path_match="Users\*\Local Settings\History\History.IE5\index.dat"/>
+    </sample>
+</getthis>

@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="WindowsPushNotificationDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Windows\Notifications\wpndatabase.db"/>
+    </sample>
+    <sample name="WindowsPushNotificationDatabaseFile">
+        <ntfs_find path_match="Windows\System32\config\systemprofile\AppData\Local\Microsoft\Windows\Notifications\wpndatabase.db"/>
+    </sample>
+</getthis>

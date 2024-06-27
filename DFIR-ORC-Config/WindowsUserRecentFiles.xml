@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="WindowsUserRecentFiles">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Microsoft\Office\Recent\*"/>
+    </sample>
+    <sample name="WindowsUserRecentFiles">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Microsoft\Windows\Recent\*"/>
+    </sample>
+</getthis>

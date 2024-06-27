@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="WindowsSetupCommandLine">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="System\Setup" value="CmdLine"/>
+    </sample>
+</getthis>

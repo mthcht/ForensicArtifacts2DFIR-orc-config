@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="WindowsFirewallPolicySettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\DomainProfile" value="EnableFirewall"/>
+    </sample>
+    <sample name="WindowsFirewallPolicySettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\DomainProfile" value="DisableNotifications"/>
+    </sample>
+    <sample name="WindowsFirewallPolicySettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\DomainProfile" value="DoNotAllowExceptions"/>
+    </sample>
+    <sample name="WindowsFirewallPolicySettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\DomainProfile" value="DefaultInboundAction"/>
+    </sample>
+    <sample name="WindowsFirewallPolicySettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\DomainProfile" value="DefaultOutboundAction"/>
+    </sample>
+    <sample name="WindowsFirewallPolicySettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\PublicProfile" value="EnableFirewall"/>
+    </sample>
+    <sample name="WindowsFirewallPolicySettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\PublicProfile" value="DisableNotifications"/>
+    </sample>
+    <sample name="WindowsFirewallPolicySettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\PublicProfile" value="DoNotAllowExceptions"/>
+    </sample>
+    <sample name="WindowsFirewallPolicySettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\PublicProfile" value="DefaultInboundAction"/>
+    </sample>
+    <sample name="WindowsFirewallPolicySettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\PublicProfile" value="DefaultOutboundAction"/>
+    </sample>
+    <sample name="WindowsFirewallPolicySettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile" value="EnableFirewall"/>
+    </sample>
+    <sample name="WindowsFirewallPolicySettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile" value="DisableNotifications"/>
+    </sample>
+    <sample name="WindowsFirewallPolicySettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile" value="DoNotAllowExceptions"/>
+    </sample>
+    <sample name="WindowsFirewallPolicySettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile" value="DefaultInboundAction"/>
+    </sample>
+    <sample name="WindowsFirewallPolicySettings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile" value="DefaultOutboundAction"/>
+    </sample>
+</getthis>

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="AllUsersProfileEnvironmentVariable">
+        <reg_list hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Windows NT\CurrentVersion\ProfileList\ProfilesDirectory"/>
+    </sample>
+    <sample name="AllUsersProfileEnvironmentVariable">
+        <reg_list hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Windows NT\CurrentVersion\ProfileList\AllUsersProfile"/>
+    </sample>
+</getthis>

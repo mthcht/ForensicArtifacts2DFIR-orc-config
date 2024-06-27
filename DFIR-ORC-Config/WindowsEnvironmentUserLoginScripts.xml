@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="WindowsEnvironmentUserLoginScripts">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Environment" value="UserInitLogonServer"/>
+    </sample>
+    <sample name="WindowsEnvironmentUserLoginScripts">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Environment" value="UserInitLogonScript"/>
+    </sample>
+    <sample name="WindowsEnvironmentUserLoginScripts">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Environment" value="UserInitMprLogonScript"/>
+    </sample>
+</getthis>

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="WindowsActiveDesktop">
+        <reg_list hive="HKEY_USERS" key="%%users.sid%%\Software\Microsoft\Internet Explorer\Desktop\Components\*"/>
+    </sample>
+    <sample name="WindowsActiveDesktop">
+        <reg_list hive="HKEY_USERS" key="%%users.sid%%\Software\Microsoft\Internet Explorer\Desktop\General"/>
+    </sample>
+</getthis>

@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="CrowdstrikeAgentID">
+        <ntfs_find path_match="Library\CS\registry.base"/>
+    </sample>
+    <sample name="CrowdstrikeAgentID">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="SYSTEM\CurrentControlSet\Services\CSAgent\Sim" value="AG"/>
+    </sample>
+</getthis>

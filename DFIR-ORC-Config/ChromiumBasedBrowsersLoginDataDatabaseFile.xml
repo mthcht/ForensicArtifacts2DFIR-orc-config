@@ -1,0 +1,191 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\Network\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\Network\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Network\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Network\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Network\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Network\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Network\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Network\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Network\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Network\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Opera Software\Opera Stable\Network\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Opera Software\Opera Stable\Network\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\BraveSoftware\Brave-Browser\*\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\BraveSoftware\Brave-Browser\*\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-config\google-chrome\*\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-config\google-chrome\*\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-config\google-chrome\*\Network\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-config\google-chrome\*\Network\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-profile\*\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-profile\*\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-profile\*\Network\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-profile\*\Network\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chromium\*\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chromium\*\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chromium\*\Network\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chromium\*\Network\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\google-chrome-beta\*\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\google-chrome-beta\*\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\google-chrome-beta\*\Network\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\google-chrome-beta\*\Network\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\google-chrome\*\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\google-chrome\*\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\google-chrome\*\Network\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\google-chrome\*\Network\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\microsoft-edge\*\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\microsoft-edge\*\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\opera\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\opera\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Chromium\*\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Chromium\*\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Chromium\*\Network\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Chromium\*\Network\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Beta\*\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Beta\*\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Beta\*\Network\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Beta\*\Network\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Canary\*\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Canary\*\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Canary\*\Network\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Canary\*\Network\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome\*\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome\*\Login Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome\*\Network\Login Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersLoginDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome\*\Network\Login Data-journal"/>
+    </sample>
+</getthis>

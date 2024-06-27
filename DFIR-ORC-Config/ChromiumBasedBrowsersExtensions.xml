@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\BraveSoftware\Brave-Browser\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Chromium\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Beta\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Canary\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Microsoft Edge Beta\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Microsoft Edge\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Yandex\YandexBrowser\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\com.operasoftware.Opera\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="%%users.homedir%%\.config\BraveSoftware\Brave-Browser\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-config\google-chrome\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-profile\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="%%users.homedir%%\.config\chromium\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="%%users.homedir%%\.config\google-chrome-beta\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="%%users.homedir%%\.config\google-chrome\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="%%users.homedir%%\.config\opera\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="%%users.homedir%%\.config\yandex-browser-beta\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="%%users.homedir%%\snap\chromium\common\chromium\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Opera Software\Opera Stable\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Brave\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge Beta\User Data\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Extensions\**10"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersExtensions">
+        <ntfs_find path_match="Users\*\AppData\Local\Yandex\YandexBrowser\User Data\*\Extensions\**10"/>
+    </sample>
+</getthis>

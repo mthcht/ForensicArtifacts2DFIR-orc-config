@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="CShellConfigurationFile">
+        <ntfs_find path_match="%%users.homedir%%\.cshrc"/>
+    </sample>
+    <sample name="CShellConfigurationFile">
+        <ntfs_find path_match="etc\csh.cshrc"/>
+    </sample>
+    <sample name="CShellConfigurationFile">
+        <ntfs_find path_match="etc\csh.login"/>
+    </sample>
+    <sample name="CShellConfigurationFile">
+        <ntfs_find path_match="etc\csh.logout"/>
+    </sample>
+    <sample name="CShellConfigurationFile">
+        <ntfs_find path_match="private\etc\csh.cshrc"/>
+    </sample>
+    <sample name="CShellConfigurationFile">
+        <ntfs_find path_match="private\etc\csh.login"/>
+    </sample>
+    <sample name="CShellConfigurationFile">
+        <ntfs_find path_match="private\etc\csh.logout"/>
+    </sample>
+    <sample name="CShellConfigurationFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Packages\*\LocalState\rootfs\home\*\.cshrc"/>
+    </sample>
+</getthis>

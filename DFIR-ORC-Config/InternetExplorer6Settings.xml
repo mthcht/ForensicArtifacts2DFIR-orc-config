@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="InternetExplorer6Settings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Internet Explorer" value="AboutURLs"/>
+    </sample>
+    <sample name="InternetExplorer6Settings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Internet Explorer" value="UrlSearchHooks"/>
+    </sample>
+    <sample name="InternetExplorer6Settings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Internet Explorer" value="Extensions"/>
+    </sample>
+    <sample name="InternetExplorer6Settings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Internet Explorer" value="ExplorerBars"/>
+    </sample>
+    <sample name="InternetExplorer6Settings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Internet Explorer" value="Toolbar"/>
+    </sample>
+    <sample name="InternetExplorer6Settings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Internet Explorer" value="SearchURL"/>
+    </sample>
+    <sample name="InternetExplorer6Settings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Internet Explorer\Main" value="Default_Page_URL"/>
+    </sample>
+    <sample name="InternetExplorer6Settings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Internet Explorer\Main" value="Default_Search_URL"/>
+    </sample>
+    <sample name="InternetExplorer6Settings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Internet Explorer\Main" value="Search Page"/>
+    </sample>
+    <sample name="InternetExplorer6Settings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Internet Explorer\Main" value="Start Page"/>
+    </sample>
+    <sample name="InternetExplorer6Settings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Internet Explorer\Main" value="Search Bar"/>
+    </sample>
+    <sample name="InternetExplorer6Settings">
+        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Internet Explorer\Search" value="CustomizeSearch"/>
+    </sample>
+    <sample name="InternetExplorer6Settings">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Microsoft\Internet Explorer" value="UrlSearchHooks"/>
+    </sample>
+    <sample name="InternetExplorer6Settings">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Microsoft\Internet Explorer" value="Extensions"/>
+    </sample>
+    <sample name="InternetExplorer6Settings">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Microsoft\Internet Explorer" value="ExplorerBars"/>
+    </sample>
+    <sample name="InternetExplorer6Settings">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Microsoft\Internet Explorer" value="Toolbar"/>
+    </sample>
+    <sample name="InternetExplorer6Settings">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Microsoft\Internet Explorer" value="SearchURL"/>
+    </sample>
+    <sample name="InternetExplorer6Settings">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Microsoft\Internet Explorer\Main" value="Default_Page_URL"/>
+    </sample>
+    <sample name="InternetExplorer6Settings">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Microsoft\Internet Explorer\Main" value="Default_Search_URL"/>
+    </sample>
+    <sample name="InternetExplorer6Settings">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Microsoft\Internet Explorer\Main" value="Search Page"/>
+    </sample>
+    <sample name="InternetExplorer6Settings">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Microsoft\Internet Explorer\Main" value="Start Page"/>
+    </sample>
+    <sample name="InternetExplorer6Settings">
+        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Microsoft\Internet Explorer\Main" value="Search Bar"/>
+    </sample>
+</getthis>

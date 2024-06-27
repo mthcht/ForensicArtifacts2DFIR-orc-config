@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Chromium\*\Preferences"/>
+    </sample>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Chromium\*\Secure Preferences"/>
+    </sample>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Beta\*\Preferences"/>
+    </sample>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Beta\*\Secure Preferences"/>
+    </sample>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Canary\*\Preferences"/>
+    </sample>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Canary\*\Secure Preferences"/>
+    </sample>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome\*\Preferences"/>
+    </sample>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome\*\Secure Preferences"/>
+    </sample>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-config\google-chrome\*\Preferences"/>
+    </sample>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-config\google-chrome\*\Secure Preferences"/>
+    </sample>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-profile\*\Preferences"/>
+    </sample>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-profile\*\Secure Preferences"/>
+    </sample>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="%%users.homedir%%\.config\chromium\*\Preferences"/>
+    </sample>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="%%users.homedir%%\.config\chromium\*\Secure Preferences"/>
+    </sample>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="%%users.homedir%%\.config\google-chrome\*\Preferences"/>
+    </sample>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="%%users.homedir%%\.config\google-chrome\*\Secure Preferences"/>
+    </sample>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Preferences"/>
+    </sample>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Secure Preferences"/>
+    </sample>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Preferences"/>
+    </sample>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Secure Preferences"/>
+    </sample>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Preferences"/>
+    </sample>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Secure Preferences"/>
+    </sample>
+    <sample name="ChromePreferences">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Preferences"/>
+    </sample>
+</getthis>

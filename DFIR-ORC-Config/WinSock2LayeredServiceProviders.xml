@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <sample name="WinSock2LayeredServiceProviders">
+        <reg_list hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\*"/>
+    </sample>
+    <sample name="WinSock2LayeredServiceProviders">
+        <reg_list hive="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries64\*"/>
+    </sample>
+</getthis>

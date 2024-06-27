@@ -1,0 +1,191 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\Network\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\Network\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Network\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Chromium\User Data\*\Network\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Network\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome SxS\User Data\*\Network\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Network\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\Network\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Network\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge\User Data\*\Network\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Opera Software\Opera Stable\Network\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\Opera Software\Opera Stable\Network\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\BraveSoftware\Brave-Browser\*\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\BraveSoftware\Brave-Browser\*\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-config\google-chrome\*\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-config\google-chrome\*\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-config\google-chrome\*\Network\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-config\google-chrome\*\Network\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-profile\*\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-profile\*\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-profile\*\Network\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chrome-remote-desktop\chrome-profile\*\Network\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chromium\*\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chromium\*\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chromium\*\Network\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\chromium\*\Network\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\google-chrome-beta\*\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\google-chrome-beta\*\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\google-chrome-beta\*\Network\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\google-chrome-beta\*\Network\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\google-chrome\*\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\google-chrome\*\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\google-chrome\*\Network\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\google-chrome\*\Network\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\microsoft-edge\*\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\microsoft-edge\*\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\opera\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\.config\opera\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Chromium\*\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Chromium\*\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Chromium\*\Network\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Chromium\*\Network\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Beta\*\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Beta\*\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Beta\*\Network\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Beta\*\Network\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Canary\*\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Canary\*\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Canary\*\Network\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome Canary\*\Network\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome\*\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome\*\Web Data-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome\*\Network\Web Data"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersWebDataDatabaseFile">
+        <ntfs_find path_match="%%users.homedir%%\Library\Application Support\Google\Chrome\*\Network\Web Data-journal"/>
+    </sample>
+</getthis>
