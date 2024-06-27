@@ -61,7 +61,7 @@ def convert_yaml_to_orc(yaml_file_path, output_dir):
                     continue
 
                 if 'supported_os' not in doc or 'Windows' not in doc['supported_os']:
-                    logging.info(f"Skipping non-Windows artifact in {yaml_file_path} - supported os {doc['supported_os']}")
+                    logging.info(f"Skipping non-Windows artifact in {yaml_file_path}")
                     continue
 
                 valid_sources = [source for source in doc['sources'] if source['type'] in ['FILE', 'REGISTRY_KEY', 'REGISTRY_VALUE']]
@@ -82,6 +82,9 @@ def convert_yaml_to_orc(yaml_file_path, output_dir):
                         SubElement(sample, 'ntfs_find', path_match=path)
 
                 for source in valid_sources:
+                    if 'supported_os' in source and 'Windows' not in source['supported_os']:
+                        continue
+
                     source_type = source['type']
                     attributes = source.get('attributes', {})
 
