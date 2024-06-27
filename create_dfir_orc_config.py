@@ -44,7 +44,8 @@ def replace_windows_vars(path):
         '%%users.appdata%%': 'Users\\*\\AppData\\Roaming',
         '%%users.localappdata%%': 'Users\\*\\AppData\\Local',
         '%%users.temp%%': 'Users\\*\\AppData\\Local\\Temp',
-        '%%users.userprofile%%': 'Users\\*'
+        '%%users.userprofile%%': 'Users\\*',
+        '%%users.sid%%': '*'
     }
     for var, replacement in windows_env_vars.items():
         path = path.replace(var, replacement)
@@ -60,7 +61,7 @@ def convert_yaml_to_orc(yaml_file_path, output_dir):
                     continue
 
                 if 'supported_os' not in doc or 'Windows' not in doc['supported_os']:
-                    logging.info(f"Skipping non-Windows artifact in {yaml_file_path}")
+                    logging.info(f"Skipping non-Windows artifact in {yaml_file_path} - supported os {doc['supported_os']}")
                     continue
 
                 valid_sources = [source for source in doc['sources'] if source['type'] in ['FILE', 'REGISTRY_KEY', 'REGISTRY_VALUE']]
