@@ -2,7 +2,7 @@
 ## DFIR ORC Artifact Converter
 The script `create_dfir_orc_config.py` converts artifact definitions from YAML format to DFIR ORC XML format. The script is specifically designed to process artifact definitions from the [ForensicArtifacts](https://github.com/ForensicArtifacts/artifacts) repository, focusing only on Windows artifacts.
 
-DFIR-ORC is a forensic artifact collecter for Windows system: https://github.com/DFIR-ORC/dfir-orc
+DFIR-ORC is a forensic artifact collector for Windows system: https://github.com/DFIR-ORC/dfir-orc
 
 ### Requierement
 Required Python libraries: requests, pyyaml
