@@ -24,3 +24,6 @@ python3 artefacttoorc.py path/to/input_dir path/to/output_dir
 - path/to/output_dir: The output directory for the converted XML files. Defaults to DFIR-ORC-Config.
 - `--auto`: Automatically download and extract artifacts from the ForensicArtifacts repository.
 
+# ForensicArtifacts to KapeFiles
+
+todo
