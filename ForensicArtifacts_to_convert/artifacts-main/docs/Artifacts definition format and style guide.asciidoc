@@ -1,0 +1,2 @@
+Moved to: https://artifacts.readthedocs.io/en/latest/sources/Format-specification.html
+
