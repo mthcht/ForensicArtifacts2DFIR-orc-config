@@ -116,10 +116,7 @@ def process_directory(input_dir, output_dir):
         for file in files:
             if file.endswith('.yml') or file.endswith('.yaml'):
                 yaml_file_path = os.path.join(root, file)
-                relative_path = os.path.relpath(root, input_dir)
-                output_subdir = os.path.join(output_dir, relative_path)
-                os.makedirs(output_subdir, exist_ok=True)
-                convert_yaml_to_orc(yaml_file_path, output_subdir)
+                convert_yaml_to_orc(yaml_file_path, output_dir)
 
 def main():
     parser = argparse.ArgumentParser(description="Convert YAML files to DFIR ORC XML format.")
