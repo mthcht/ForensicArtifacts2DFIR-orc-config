@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<getthis reportall="">
-    <output compression="fast"/>
-    <location>%SystemDrive%\</location>
-    <sample name="WindowsUserCustomDestinationsJumpLists">
-        <ntfs_find path_match="Users\*\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\*.customDestinations-ms"/>
-    </sample>
-</getthis>

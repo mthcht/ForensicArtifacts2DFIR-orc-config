@@ -1,7 +1,0 @@
-<?xml version="1.0" ?>
-<getthis reportall="">
-    <output compression="fast"/>
-    <sample name="WinRARExternalViewer">
-        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\WinRAR\Viewer\" value="ExternalViewer"/>
-    </sample>
-</getthis>

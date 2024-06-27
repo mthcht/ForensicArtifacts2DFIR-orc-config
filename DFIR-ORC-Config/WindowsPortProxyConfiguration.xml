@@ -1,7 +1,0 @@
-<?xml version="1.0" ?>
-<getthis reportall="">
-    <output compression="fast"/>
-    <sample name="WindowsPortProxyConfiguration">
-        <reg_list hive="HKEY_LOCAL_MACHINE" key="SYSTEM\CurrentControlSet\Services\PortProxy\*\*\*"/>
-    </sample>
-</getthis>

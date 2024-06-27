@@ -1,7 +1,0 @@
-<?xml version="1.0" ?>
-<getthis reportall="">
-    <output compression="fast"/>
-    <sample name="WindowsProxyPACAutoConfigURL">
-        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Software\Microsoft\Windows\CurrentVersion\Internet Settings" value="AutoConfigURL"/>
-    </sample>
-</getthis>

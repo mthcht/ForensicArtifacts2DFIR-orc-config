@@ -1,7 +1,0 @@
-<?xml version="1.0" ?>
-<getthis reportall="">
-    <output compression="fast"/>
-    <sample name="WindowsEnvironmentVariableAppxProcess">
-        <reg_find hive="HKEY_USERS" key="%%users.sid%%\Environment" value="APPX_PROCESS"/>
-    </sample>
-</getthis>

@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<getthis reportall="">
-    <output compression="fast"/>
-    <location>%SystemDrive%\</location>
-    <sample name="WindowsRDPClientBitmapCache">
-        <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Terminal Server Client\Cache\*.*"/>
-    </sample>
-</getthis>

@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<getthis reportall="">
-    <output compression="fast"/>
-    <location>%SystemDrive%\</location>
-    <sample name="WindowsXMLEventLogSysmon">
-        <ntfs_find path_match="Windows\System32\winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx"/>
-    </sample>
-</getthis>

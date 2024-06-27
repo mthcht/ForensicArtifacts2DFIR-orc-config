@@ -1,7 +1,0 @@
-<?xml version="1.0" ?>
-<getthis reportall="">
-    <output compression="fast"/>
-    <sample name="WindowsEnvironmentVariableCommonProgramFiles">
-        <reg_find hive="HKEY_LOCAL_MACHINE" key="Software\Microsoft\Windows\CurrentVersion" value="CommonFilesDir"/>
-    </sample>
-</getthis>

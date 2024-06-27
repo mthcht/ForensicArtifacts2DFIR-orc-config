@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<getthis reportall="">
-    <output compression="fast"/>
-    <location>%SystemDrive%\</location>
-    <sample name="WindowsUpdateCatalogDatabaseFile">
-        <ntfs_find path_match="Windows\System32\catroot2\{*-*-*-*-*}\catdb"/>
-    </sample>
-</getthis>
