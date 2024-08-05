@@ -27,3 +27,5 @@ python3 create_dfir_orc_config.py path/to/input_dir path/to/output_dir
 # todo
 - [ ] test the generated configurations
 - [ ] ForensicArtifacts to KapeFiles
+
+other repo getting more artifacts: https://github.com/mthcht/KapeFiles2DFIR-orc-config
