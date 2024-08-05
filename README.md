@@ -11,13 +11,13 @@ Required Python libraries: requests, pyyaml
 ### Automatic Download and Conversion
 To automatically download the artifact definitions and convert them to DFIR ORC XML format:
 ```python
-python3 artefacttoorc.py --auto
+python3 create_dfir_orc_config.py --auto
 ```
 The converted files will be saved in the DFIR-ORC-Config directory.
 
 To convert artifact definitions from a specified input directory to a specified output directory:
 ```python
-python3 artefacttoorc.py path/to/input_dir path/to/output_dir
+python3 create_dfir_orc_config.py path/to/input_dir path/to/output_dir
 ```
 
 - path/to/input_dir: The input directory containing YAML files (can contain subdirectories). Defaults to ForensicArtifacts_to_convert.
