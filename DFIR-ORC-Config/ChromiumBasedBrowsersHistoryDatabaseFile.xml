@@ -81,6 +81,12 @@
         <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\*\History-journal"/>
     </sample>
     <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\Snapshots\*\*\History"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
+        <ntfs_find path_match="Users\*\AppData\Local\Google\Chrome\User Data\Snapshots\*\*\History-journal"/>
+    </sample>
+    <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
         <ntfs_find path_match="Users\*\AppData\Local\Microsoft\Edge Beta\User Data\*\Archived History"/>
     </sample>
     <sample name="ChromiumBasedBrowsersHistoryDatabaseFile">
