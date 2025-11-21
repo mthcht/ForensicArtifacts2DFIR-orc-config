@@ -12,6 +12,6 @@
         <ntfs_find path_match="Users\*\AppData\Roaming\Mozilla\Firefox\Profiles\*\places.sqlite"/>
     </sample>
     <sample name="FirefoxHistory">
-        <ntfs_find path_match="Users\*\AppData\Local\Mozilla\Firefox\Profiles\*\places.sqlite-wal"/>
+        <ntfs_find path_match="Users\*\AppData\Roaming\Mozilla\Firefox\Profiles\*\places.sqlite-wal"/>
     </sample>
 </getthis>
