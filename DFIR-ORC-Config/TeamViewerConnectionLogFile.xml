@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="TeamViewerConnectionLogFile">
+        <ntfs_find path_match="Program Files\TeamViewer\Connections*.txt"/>
+    </sample>
+    <sample name="TeamViewerConnectionLogFile">
+        <ntfs_find path_match="Program Files (x86)\TeamViewer\Connections*.txt"/>
+    </sample>
+    <sample name="TeamViewerConnectionLogFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\TeamViewer\Connections*.txt"/>
+    </sample>
+</getthis>

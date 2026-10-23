@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<getthis reportall="">
+    <output compression="fast"/>
+    <location>%SystemDrive%\</location>
+    <sample name="AnyDeskLogFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\AnyDesk\*.trace"/>
+    </sample>
+    <sample name="AnyDeskLogFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\AnyDesk\ad_*\*.trace"/>
+    </sample>
+    <sample name="AnyDeskLogFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\AnyDesk\connection_trace.txt"/>
+    </sample>
+    <sample name="AnyDeskLogFile">
+        <ntfs_find path_match="Users\*\AppData\Roaming\AnyDesk\file_transfer_trace.txt"/>
+    </sample>
+    <sample name="AnyDeskLogFile">
+        <ntfs_find path_match="ProgramData\AnyDesk\*.trace"/>
+    </sample>
+    <sample name="AnyDeskLogFile">
+        <ntfs_find path_match="ProgramData\AnyDesk\ad_*\*.trace"/>
+    </sample>
+    <sample name="AnyDeskLogFile">
+        <ntfs_find path_match="ProgramData\AnyDesk\connection_trace.txt"/>
+    </sample>
+    <sample name="AnyDeskLogFile">
+        <ntfs_find path_match="ProgramData\AnyDesk\file_transfer_trace.txt"/>
+    </sample>
+    <sample name="AnyDeskLogFile">
+        <ntfs_find path_match="Windows\SysWOW64\config\systemprofile\AppData\Roaming\AnyDesk\*"/>
+    </sample>
+</getthis>
