@@ -3,6 +3,18 @@
     <output compression="fast"/>
     <location>%SystemDrive%\</location>
     <sample name="TomcatLogFiles">
+        <ntfs_find path_match="ProgramData\Application Data\Apache Software Foundation\Tomcat*\logs\*\access_log*"/>
+    </sample>
+    <sample name="TomcatLogFiles">
+        <ntfs_find path_match="ProgramData\Application Data\Apache Software Foundation\Tomcat*\logs\access_log*"/>
+    </sample>
+    <sample name="TomcatLogFiles">
+        <ntfs_find path_match="ProgramData\Application Data\Apache Software Foundation\Tomcat*\logs\*\catalina.out"/>
+    </sample>
+    <sample name="TomcatLogFiles">
+        <ntfs_find path_match="ProgramData\Application Data\Apache Software Foundation\Tomcat*\logs\catalina.out"/>
+    </sample>
+    <sample name="TomcatLogFiles">
         <ntfs_find path_match="ProgramData\Apache Software Foundation\Tomcat*\logs\*\access_log*"/>
     </sample>
     <sample name="TomcatLogFiles">

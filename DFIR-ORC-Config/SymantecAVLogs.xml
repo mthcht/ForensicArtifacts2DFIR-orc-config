@@ -3,6 +3,15 @@
     <output compression="fast"/>
     <location>%SystemDrive%\</location>
     <sample name="SymantecAVLogs">
+        <ntfs_find path_match="ProgramData\Application Data\Symantec\Symantec Endpoint Protection\*\Data\Logs\*.log"/>
+    </sample>
+    <sample name="SymantecAVLogs">
+        <ntfs_find path_match="ProgramData\Application Data\Symantec\Symantec Endpoint Protection\*\Data\Logs\AV\*.log"/>
+    </sample>
+    <sample name="SymantecAVLogs">
+        <ntfs_find path_match="ProgramData\Application Data\Symantec Endpoint Protection\Logs\AV\*.log"/>
+    </sample>
+    <sample name="SymantecAVLogs">
         <ntfs_find path_match="ProgramData\Symantec\Symantec Endpoint Protection\*\Data\Logs\*.log"/>
     </sample>
     <sample name="SymantecAVLogs">

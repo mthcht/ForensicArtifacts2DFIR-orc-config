@@ -3,6 +3,9 @@
     <output compression="fast"/>
     <location>%SystemDrive%\</location>
     <sample name="SophosAVQuarantine">
+        <ntfs_find path_match="ProgramData\Application Data\Sophos\Sophos Anti-Virus\INFECTED\*"/>
+    </sample>
+    <sample name="SophosAVQuarantine">
         <ntfs_find path_match="ProgramData\Sophos\Sophos Anti-Virus\INFECTED\*"/>
     </sample>
 </getthis>
